@@ -24,7 +24,7 @@ class SupportRepository
                         }
 
                         if(isset($filters['status'])){
-                            $query->where('status_id', $filters['status']);
+                            $query->where('status', $filters['status']);
                         }
 
                         if (isset($filters['description'])) {
